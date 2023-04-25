@@ -4,6 +4,16 @@ import "./globals.css";
 export const metadata = {
   title: "Mnews | Update yourself",
   description: "Update yourself about front-end news",
+  openGraph: {
+    type: "website",
+    siteName: "Mnews",
+    title: "Mnews | Update yourself",
+    images: [
+      {
+        url: "/assets/mnews-logo.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

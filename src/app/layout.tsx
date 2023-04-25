@@ -10,7 +10,7 @@ export const metadata = {
     title: "Mnews | Update yourself",
     images: [
       {
-        url: "/assets/mnews-logo.png",
+        url: "https://i.ibb.co/YWsFFbH/mnews-logo.png",
       },
     ],
   },

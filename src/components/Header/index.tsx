@@ -16,7 +16,7 @@ export default function Header() {
         <Link href="/">
           <span className=" text-white top-8 left-10 absolute flex text-lg justify-center items-center gap-2">
             <BsArrowLeftCircle fontSize={28} />
-            Back
+            <p className="hidden sm:block">Back</p>
           </span>
         </Link>
       )}

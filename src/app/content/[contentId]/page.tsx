@@ -23,7 +23,7 @@ export default async function Content({
 
   return (
     <section className="w-full flex flex-wrap justify-center mt-8 ">
-      <div className="flex flex-wrap justify-center items-center w-1/2 flex-col bg-slate-100 shadow-md p-8">
+      <div className="flex flex-wrap justify-center items-center w-96 sm:w-1/2 flex-col bg-slate-100 shadow-md p-8">
         <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-800 md:text-4xl">
           {content.fields.title}
         </h1>

@@ -26,7 +26,7 @@ const Card = ({
         alt={title}
       />
       <div className="p-4 w-96">
-        <h2 className="text-lg  font-semibold overflow-hidden whitespace-nowrap">
+        <h2 className="text-lg font-semibold overflow-hidden whitespace-nowrap">
           {title}
         </h2>
         <p className="mt-2 line-clamp-4">{description}</p>

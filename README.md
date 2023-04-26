@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://i.ibb.co/YWsFFbH/mnews-logo.png" width="200">
   <br>
-  Coders News
+  MNews
 </h1>
 
 <p align="center">

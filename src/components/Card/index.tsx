@@ -3,7 +3,7 @@ import Link from "next/link";
 
 interface CardProps {
   id: string;
-  imageSrc: string;
+  imageSrc?: string;
   title: string;
   description: string;
   buttonText?: string;
@@ -22,7 +22,7 @@ const Card = ({
         className="w-full h-60 object-cover"
         width={800}
         height={800}
-        src={imageSrc}
+        src={imageSrc ?? ""}
         alt={title}
       />
       <div className="p-4 w-96">

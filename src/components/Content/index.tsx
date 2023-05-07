@@ -15,7 +15,6 @@ export default function Content({ posts }: ContentProps) {
           key={post.fields.slug}
           title={post.fields.title}
           description={post.fields.description}
-          imageSrc={`https:${post.fields.thumb.fields.file.url}`}
         />
       ))}
     </div>

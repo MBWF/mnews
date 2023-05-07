@@ -11,6 +11,7 @@ export type IPost = {
 
 const client = createClient({
   space: process.env.NEXT_APP_CONTENTFUL_SPACE_ID as string,
+  environment: "master",
   accessToken: process.env.NEXT_APP_CONTENTFUL_ACCESS_TOKEN as string,
 });
 
